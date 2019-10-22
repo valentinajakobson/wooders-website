@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/*
+
 header {
   background-image: url(img/background.png);
   background-size: 100% 100%;
@@ -15,8 +15,8 @@ header {
   height: 150px;
   display: flex;
   align-items: center;
-} */
-/* .icon {
+} 
+.icon {
   flex: 1;
 }
 
@@ -24,8 +24,8 @@ header {
   height: 120px;
   width: 120px;
   margin-left: 80px;
-} */
-/* .navbar {
+} 
+.navbar {
   text-align: right;
   flex: 4;
   margin-right: 80px;
@@ -38,8 +38,8 @@ header {
   text-align: center;
   margin: 0 auto;
   position: relative;
-} */
-/* .navbar a {
+}
+.navbar a {
   color: white;
   text-decoration: none;
   display: block;
@@ -58,8 +58,8 @@ nav a:after {
   bottom: 0;
   left: 0;
   background-color: white;
-} */
-/* nav li:hover a:after {
+} 
+.nav li:hover a:after {
   width: 70%;
   margin-left: 20px;
 }
@@ -67,7 +67,7 @@ nav a:after {
 nav a:hover {
   color: black;
   text-shadow: none;
-} */
+} 
 .mainpicture {
   max-height: 25.000em;
   width: auto;
