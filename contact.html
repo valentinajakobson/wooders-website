@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <!-- <header>
+    <div class="icon">
+      <a href="#"><img class="logo" alt="logo" src="img/logoWhiteTransparent.png"></a>
+    </div>
+    <nav class="navbar">
+
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header> -->
+  <main>
+    <div id="map"></div>
+
+    <div class="" scr="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyB85NjJ7-pbjtKwYvnmXZ-j31IP2i673Tc&center=-33.9,151.14999999999998&zoom=12&format=png&maptype=roadmap&style=element:geometry%7Ccolor:0x242f3e&style=element:labels.text.fill%7Ccolor:0x746855&style=element:labels.text.stroke%7Ccolor:0x242f3e&style=feature:administrative.locality%7Celement:labels.text.fill%7Ccolor:0xd59563&style=feature:poi%7Celement:labels.text.fill%7Ccolor:0xd59563&style=feature:poi.park%7Celement:geometry%7Ccolor:0x263c3f&style=feature:poi.park%7Celement:labels.text.fill%7Ccolor:0x6b9a76&style=feature:road%7Celement:geometry%7Ccolor:0x38414e&style=feature:road%7Celement:geometry.stroke%7Ccolor:0x212a37&style=feature:road%7Celement:labels.text.fill%7Ccolor:0x9ca5b3&style=feature:road.highway%7Celement:geometry%7Ccolor:0x746855&style=feature:road.highway%7Celement:geometry.stroke%7Ccolor:0x1f2835&style=feature:road.highway%7Celement:labels.text.fill%7Ccolor:0xf3d19c&style=feature:transit%7Celement:geometry%7Ccolor:0x2f3948&style=feature:transit.station%7Celement:labels.text.fill%7Ccolor:0xd59563&style=feature:water%7Celement:geometry%7Ccolor:0x17263c&style=feature:water%7Celement:labels.text.fill%7Ccolor:0x515c6d&style=feature:water%7Celement:labels.text.stroke%7Ccolor:0x17263c&size=480x360">
+    </div>
+
+    <div class="container">
+
+      <div class="info">
+
+        <div class="mainpicture">
+          <img src="img/img1.jpg" alt="personpic" class=mainpicture>
+        </div>
+        <div class="contactInfo">
+          <div class="contactus">
+            <h1>Contact us</h1>
+          </div>
+          <div class="adress">
+            <p>Ready for some Hammer time?<br><br> Write to us or give us a call now,
+              we’re always happy to provide <br />a free consultation and help out with any questions you may ask.</p> <br />
+            <h3>Get in Touch!</h3>
+            <p>1-800-000-0000 // info@mysite.com</p>
+            <p>Rautatieläisenkatu 5 <br />
+              Helsinki, 00150 </p>
+          </div>
+          <form>
+            <div class="formwrap">
+
+              <div class="inputs">
+
+                <label for="name"><input type="text" name="name" placeholder="Name"></label>
+                <label for="email"><input type="email" name="email" placeholder="Email"></label>
+                <label for="subject"><input type="text" name="subject" placeholder="Subject"></label>
+
+              </div>
+
+              <div class="textarea">
+                <label for="textarea"></label>
+                <textarea name="name" rows="10" cols="60" placeholder="Message"></textarea>
+              </div>
+            </div>
+            <button type="submit" name="button">Send</button>
+
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- <footer>
+
+    </footer> -->
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMHxrk2ZGJ2FhJTrTa0pExKHfH1zAgbgk&callback=initMap" async defer></script>
+    <script type="text/javascript" src="script.js"></script>
+  </main>
+
+  <button type="button" onclick="backtotopFunction()" id="topButton" title="Go to top"><i class="fas fa-angle-up"></i>
+  </button>
+  <script type="text/javascript" src="scripts.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+/*
+header {
+  background-image: url(img/background.png);
+  background-size: 100% 100%;
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto;
+  height: 150px;
+  display: flex;
+  align-items: center;
+} */
+/* .icon {
+  flex: 1;
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+  margin-left: 80px;
+} */
+/* .navbar {
+  text-align: right;
+  flex: 4;
+  margin-right: 80px;
+  align-items: center;
+}
+
+.navbar ul li {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+} */
+/* .navbar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 120px;
+  padding: 20px 10px;
+  font-size: 20px;
+  text-shadow: 1px 1px grey;
+}
+
+nav a:after {
+  position: absolute;
+  content: '';
+  margin-top: 10px;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+} */
+/* nav li:hover a:after {
+  width: 70%;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  color: black;
+  text-shadow: none;
+} */
+.mainpicture {
+  max-height: 25.000em;
+  width: auto;
+  flex: 1;
+}
+
+.container {
+  width: 80%;
+  margin: 1.250em auto;
+}
+
+.info {
+  display: flex;
+  margin-top: 2.500em;
+}
+
+.contactInfo {
+  text-align: left;
+  flex: 1;
+}
+
+.contactInfo p {
+  margin-bottom: 20px;
+}
+
+.contactInfo h3 {
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 8px;
+  margin: 10px 10px 10px 0;
+  background-color: #e6eaf2;
+  width: 180px;
+  font-size: 14px;
+}
+
+input:hover {
+  background-color: white;
+}
+
+.contactus h1 {
+  font-weight: normal;
+  display: block;
+  margin-bottom: 40px;
+  color: rgba(182, 61, 50, 1);
+}
+
+.adress h3 {
+  font-weight: 500;
+}
+
+form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.formwrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea {
+  flex: 1;
+}
+
+textarea {
+  width: 400px;
+  height: 148px;
+  background-color: #e6eaf2;
+  resize: none;
+  padding-left: 5px;
+  padding-top: 5px;
+  margin: 10px;
+  border: none;
+  box-shadow: inset 1px 1px grey;
+  font-size: 14px;
+}
+
+textarea:hover {
+  background-color: white;
+  border: solid 1px grey;
+}
+
+button {
+  width: 600px;
+  height: 30px;
+  background-color: rgba(182, 61, 50, 1);
+  border: solid rgba(60, 29, 23, 1) 0px;
+  cursor: pointer !important;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-left: 0;
+}
+
+#topButton {
+  width: 24px;
+  height: 30px;
+  background-color: rgba(182, 61, 50, 1);
+  border: solid rgba(60, 29, 23, 1) 0px;
+  cursor: pointer !important;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  display: none;
+  position: fixed;
+  right: 2em;
+  bottom: 1.4em;
+}
+
+#map {
+  height: 600px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+footer {
+  background-color: rgba(182, 61, 50, 1);
+  height: 200px;
+}
+
+/* -------Iphone 5s/SE-------- */
+* {
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .info {
+    flex-direction: column;
+  }
+
+  .mainpicture {
+    max-height: 300px;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  input {
+    padding: 10px;
+    margin: 12px;
+    width: 250px;
+  }
+
+  button {
+    width: 250px;
+  }
+
+  textarea {
+    width: 280px;
+    border: none;
+    align-items: center;
+    width: 250px;
+  }
+
+  .contactus h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .contactus p, h3 {
+    text-align: center;
+  }
+
+  #map {
+    height: 400px;
+  }
+}
